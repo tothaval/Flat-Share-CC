@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="FlatShareCostCalculator.CostsOutputUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlatShareCostCalculator"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ScrollViewer>
+        <StackPanel>
+            <Label x:Name="LL_room_name"
+                       HorizontalContentAlignment="Center"
+                       />
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="rented area"
+                       HorizontalContentAlignment="Center"
+                       Margin="2,0,2,0"/>
+
+                    <local:DataInputElement x:Name="DIE_room_area">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_shared_area">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement Visibility="Hidden">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_total_area"
+                                        Margin="0,10,0,0">
+
+                    </local:DataInputElement>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="payments"
+                       HorizontalContentAlignment="Center"
+                       Margin="2,0,2,0"/>
+
+                    <local:DataInputElement x:Name="DIE_payments_cr">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_payments_ec">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement Visibility="Hidden">
+
+                    </local:DataInputElement>
+
+
+                    <local:DataInputElement x:Name="DIE_payments"
+                                        Margin="0,10,0,0">
+
+                    </local:DataInputElement>
+
+
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="costs"
+                       HorizontalContentAlignment="Center"
+                       Margin="2,0,2,0"/>
+
+                    <local:DataInputElement x:Name="DIE_cold_rent_costs">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_extra_costs_share">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_extra_costs_heating">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_costs_total"
+                                        Margin="0,10,0,0">
+
+                    </local:DataInputElement>
+
+                </StackPanel>
+
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="balance"
+                       HorizontalContentAlignment="Center"
+                       Margin="2,0,2,0"/>
+
+                    <local:DataInputElement x:Name="DIE_cold_rent_diff">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_ecs_diff">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_ech_diff">
+
+                    </local:DataInputElement>
+
+                    <local:DataInputElement x:Name="DIE_balance_total"
+                                        Margin="0,10,0,0">
+
+                    </local:DataInputElement>
+                </StackPanel>
+
+            </StackPanel>
+        </StackPanel>
+
+    </ScrollViewer>
+</UserControl>

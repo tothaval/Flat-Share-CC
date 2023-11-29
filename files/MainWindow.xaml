@@ -1,0 +1,36 @@
+﻿<Window x:Class="FlatShareCostCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlatShareCostCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="700"
+        Closing="Window_Closing"
+        ResizeMode="CanResizeWithGrip"
+        SizeToContent="WidthAndHeight">
+    <Border x:Name="MainBorder">
+        <TabControl x:Name="MainTabControl">
+            <TabItem x:Name="Tab_FlatData"
+                     Header="Flat Data">
+                <local:FlatDataUI x:Name="FlatDataUI_object">
+                    
+                </local:FlatDataUI>                
+            </TabItem>
+
+            <TabItem x:Name="Tab_InitialCosts"
+                     Header="Initial Costs">
+                <local:InitialCostsUI x:Name="InitialCostsUI_object">
+                    
+                </local:InitialCostsUI>
+            </TabItem>
+
+            <TabItem x:Name="Tab_UpdateCosts"
+                     Header="Update Costs">
+                <local:UpdateCostsUI x:Name="UpdateCostsUI_object">
+
+                </local:UpdateCostsUI>
+            </TabItem>
+        </TabControl>
+    </Border>
+</Window>

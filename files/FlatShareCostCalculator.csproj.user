@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AnnualBillingUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CostsOutputUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataInputElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FlatDataUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InitialCostOutputUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InitialCostsUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaymentsUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RentOutputUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateCosts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateCostsUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AnnualBillingUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CostsOutputUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataInputElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FlatDataUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InitialCostOutputUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InitialCostsUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaymentsUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RentOutputUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateCosts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateCostsUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
